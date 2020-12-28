@@ -1,0 +1,38 @@
+{
+    "body": {
+       "rsus": [
+        {
+            "ip": "123.156.201.101",
+            "location": "1234 Broadway Ave, Denver CO",
+            "status": {
+                "state": "green",
+                "error": null
+            }
+        },
+        {
+            "ip": "123.254.189.59",
+            "location": "1535 Lark Ave, Denver CO",
+            "status": {
+                "state": "red",
+                "error": "not recieving any data"
+            }
+        },
+        {
+            "ip": "245.456.185.101",
+            "location": "434 Main Street, Denver CO",
+            "status": {
+                "state": "red",
+                "error": "Not reporing data"
+            }
+        },
+        {
+            "ip": "103.456.45.102",
+            "location": "I70, MM180, Colorado",
+            "status": {
+                "state": "green",
+                "error": null
+            }
+        }
+       ]
+    }
+}

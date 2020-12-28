@@ -1,0 +1,52 @@
+.App {
+    border: 2px solid black;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.table > header {
+    background-color: #1b1616;
+}
+
+.rows-and-sidebar {
+    display: flex;
+}
+
+aside {
+    flex: 1 1 150px;
+}
+
+aside > header {
+    border-bottom: 2px solid black;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.row.top-row, aside {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: .25rem 0;
+}
+
+span {
+    width: 220px;
+}
+
+.table img {
+    max-width: 150px;
+}
+
+.error {
+    color: red;
+}
